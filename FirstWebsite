@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="LemonProject.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <img src="Asset 16@4x.png" width="500" height="100">
+    </header>
+    <nav>
+        <ul>
+        <li><a href="form.html"><i class="fa-solid fa-house"> Login</i></a></li>
+        <li><a href="LemonMenu.html"><i class="fa-solid fa-bars"> Menu</i></a></li>
+        <li><a href="Booking.html"><i class="fa-solid fa-utensils"> Book</i></a></li>
+        <li><a href="PseudoLinks.html"><i class="fa-solid fa-eject"> About</i></a></li>
+        <li class="container">
+        <input class="search" type="search" name="search" placeholder="enter dish here..">
+        <input type="submit" value="search" class="searchButton">
+    </li>
+    </ul>
+    </nav>
+    <main>
+        <section class="one">
+            <article>
+                <h1>30% Off This Weekend</h1>
+                <p>Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the 
+                    United States to pursue their shared dream of owning a restaurant. To craft the menu, 
+                    Mario relies on family recipes and his experience as a chef in Italy. Adrian does all the 
+                    marketing for the restaurant and led the effort to expand the menu beyond classic Italian to 
+                    incorporate additional cuisines from the Mediterranean region.</p>
+            </article>
+        </section>
+        <section class="two">
+            <article class="three">
+                <h2>Our New Menu</h2>
+                <img class="menu" src="https://www.rd.com/wp-content/uploads/2018/12/shutterstock_1161597079.jpg" width="300" height="200">
+                <p>Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the 
+                    United States to pursue their shared dream of owning a restaurant. To craft the menu, 
+                    Mario relies on family recipes and his experience as a chef in Italy. Adrian does all the 
+                    marketing for the restaurant and led the effort to expand the menu beyond classic Italian to 
+                    incorporate additional cuisines from the Mediterranean region</p>
+            </article>
+            <article class="three">
+                <h2>Book a table</h2>
+                <img class="book" src="https://soyummy.com/wp-content/uploads/2019/04/h16.jpeg?w=450&h=400&fit=crop&crop=entropy&auto=format&q=60" width="300" height="200">
+                <p>Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the 
+                    United States to pursue their shared dream of owning a restaurant. To craft the menu, 
+                    Mario relies on family recipes and his experience as a chef in Italy. Adrian does all the 
+                    marketing for the restaurant and led the effort to expand the menu beyond classic Italian to 
+                    incorporate additional cuisines from the Mediterranean region</p>
+            </article>
+            <article class="three">
+                <h2>Opening Hours</h2>
+                <img class="about" src="https://th.bing.com/th/id/OIP.Q6O2fA4gI_YgUFga3GciJgHaE8?pid=ImgDet&rs=1" width="300" height="200">
+                <p>Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the 
+                    United States to pursue their shared dream of owning a restaurant. To craft the menu, 
+                    Mario relies on family recipes and his experience as a chef in Italy. Adrian does all the 
+                    marketing for the restaurant and led the effort to expand the menu beyond classic Italian to 
+                    incorporate additional cuisines from the Mediterranean region</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img class="six" src="Asset 20@4x.png" width="75">
+        </div>
+            <div class="foot">
+              
+              <ul class="foot-l">
+                <p1>Company</p1>
+                <li class="foot-2"><a href="#">About us</a></li>
+                <li class="foot-2"><a href="#">Plans</a></li>
+                <li class="foot-2"><a href="#">Guides</a></li>
+                <li class="foot-2"><a href="#">Teams</a></li>
+                <li class="foot-2"><a href="#">Rewards</a></li>
+                <li class="foot-2"><a href="#">Offers</a></li>
+                <li class="foot-2"><a href="#">In media</a></li>
+                <li class="foot-2"><a href="#">Installations</a></li>
+              </ul>
+              
+              <ul class="foot-m">
+                <p1>Contact</p1>
+                <li class="foot-2"><a href="#">Help</a></li>
+                <li class="foot-2"><a href="#">Support</a></li>
+                <li class="foot-2"><a href="#">Other</a></li>
+              </ul>
+              
+              <ul class="foot-n">
+                <p1>Permits</p1>
+                <li class="foot-2"><a href="#">Terms</a></li>
+                <li class="foot-2"><a href="#">Refund</a></li>
+                <li class="foot-2"><a href="#">Privacy</a></li>
+                <li class="foot-2"><a href="#">Cookies</a></li>
+                <li class="foot-2"><a href="#">Conditions</a></li>
+              </ul>
+            </div>
+            <p3>Copyright Little Lemon</p3>
+        </div>
+    </footer>
+</body>
+
+<style>
+body {
+    background-image: url(https://th.bing.com/th/id/R.f434d346bf5bfd784b2d469e2c574d56?rik=a3bNjIOta0YeaQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2fc%2f6%2f272622.jpg&ehk=HqVidmBrpWUyUnGuhD2YT5kfSxDg1orZi9QGQPYMsVo%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: 6000px;
+    font-family: 'Markazi text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline;
+}
+section {
+    display: flex;
+}
+article {
+    flex: 1;
+}
+footer {
+    display: flex;
+}
+footer div {
+    flex: 1;
+}
+nav {
+    background-color: black;
+    border-radius: 9px;
+    height: 30px;
+    margin: 10px;
+}
+li {
+    font-family: cursive;
+}
+a {
+    padding: 55px;
+    color: white;
+}
+.one {
+    background-image: url(Screenshot_20230307_101831.png);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    box-shadow: 3px 3px black;
+}
+h1 {
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.three {
+    background-color: skyblue;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    transform-box: scaleX(50%) scaleY(50%);
+    transition: 2s;
+    box-shadow: 5px 5px rgba(17, 17, 17, 0.379);
+}
+.three:hover {
+    transform: scaleX(105%) scaleY(105%);
+    transition: 150ms;
+}
+.menu {
+    margin: 10px;
+    border-radius: 10px;
+}
+.book {
+    margin: 10px;
+    border-radius: 10px;
+}
+.about {
+    margin: 10px;
+    border-radius: 10px;
+}
+h2 {
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.six {
+    padding: 10px;
+}
+footer  p3 {
+    margin: 50px;
+    border-top: 2px solid white;
+    color: white;
+}
+footer {
+    background-color: black;
+    margin: 10px;
+    border-radius: 10px;
+}
+.container {
+    display: inline-flex;
+    flex: 1 1 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.search {
+    border: 0;
+    flex: 1;
+}
+.searchButton {
+    color: white;
+    background: #0f4a8a;
+    border: 0;
+    padding: 0.3rem;
+    border-radius: 8px;
+}
+p1 {
+    color: white;
+    font-size: 20px;
+}
+.foot {
+    display: grid;
+    grid-template-areas: "foot-l foot-m foot-n";
+}
+.foot-2 a:hover {
+    font-weight: 600;
+}
+.foot-1 a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  .foot {
+    color: #808080;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .foot-2 {
+    padding: 10px;
+  }
+  
+  .foot-l , .foot-m, .foot-n {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .foot-l, .foot-m, .foot-n a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+  }
+  </style>
+  </html>
